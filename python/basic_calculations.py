@@ -8,7 +8,7 @@ Simple electrical calculations used as part of engineering studies.
 def eletrical_power(voltage, current):
   return voltage * current
 
-def ohms_law(voltage_ohm, current_ohm):
+def ohms_law(voltage, current):
   return voltage / current
 
 power = eletrical_power(220, 5)
